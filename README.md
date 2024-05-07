@@ -1,1 +1,49 @@
 # LLMs-in-Health-Sciences
+
+# Finetuning
+
+This project involves finetuning a large language model (LLM) for applications in health sciences. The model is finetuned using specific instruction templates to enhance its capabilities in the health sciences domain.
+
+## Prerequisites
+
+Before you begin, ensure you have access to the following:
+- Google Drive account with shared data and model files.
+- Jupyter Notebook environment/ Google Colab capable of running `.ipynb` files.
+
+## Setup
+
+1. **Clone the Repository**:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Access the Data**:
+    - Ensure that all the necessary data and model files are available in your Google Drive.
+
+## Running the Model
+
+1. **Open the Finetuning Notebook**:
+    - Open `Fine_Tuning.ipynb` in your Jupyter environment. This file contains the code needed for finetuning the model.
+
+2. **Connect to Google Drive**:
+    - Run the initial code blocks in the notebook to mount your Google Drive and access the datasets and model files.
+
+3. **Adjust the Instruction Templates**:
+    - The notebook uses 10 instruction templates for finetuning. For each finetuning session, you need to:
+        - Change the `instruction_template` variable in the code to match your current template.
+        - Update the `save_model_name` variable to reflect the output model name (e.g., `results1`, `results2`, etc.).
+
+4. **Execute the Notebook**:
+    - Run all the code blocks in the notebook after making the necessary adjustments to the instruction template and model saving parameters.
+
+5. **Repeat the Process**:
+    - Repeat steps 3 and 4 for each of the 10 instruction templates to generate different versions of the finetuned model.
+
+## Additional Information
+
+- **Model Output**:
+    - Each finetuned model will be saved in your Google Drive with names from `results1` to `results10` based on the instruction template used.
+
+- **Dependencies**:
+    - Ensure all Python dependencies are installed as per the `requirements.txt` file, if provided in the repository.
