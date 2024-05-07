@@ -1,0 +1,11 @@
+T1 - f"{premise} Question: Does this imply that {hypothesis}? {options}"
+T2 - f"{premise} Question: Is it likely that {hypothesis} given the context?
+T3 - f"{premise} Question: Based on the information, would {hypothesis} be supported? {options}"
+T4 - f"{premise} Question: Does {hypothesis} align with the provided details? {options}”
+T5 - f"{premise} Question: Would {hypothesis} logically follow from the given information? {options}”
+T6 - f"{premise} Question: Can {hypothesis} be inferred from the paragraph? {options}”
+T7 - f"{premise} Question: Is there evidence to suggest {hypothesis} is true/false? {options}"
+T8 - f"{premise} Question: Does the paragraph suggest {hypothesis} is plausible? {options}”
+T9 - f"{premise} Question: Would {hypothesis} be consistent with the context provided? {options}"
+T10 - f"{premise} Question: Is there enough support in the text to conclude {hypothesis}? {options}"
+T11 - f" Question: Can {hypothesis} be supported by {premise}? {options}"
