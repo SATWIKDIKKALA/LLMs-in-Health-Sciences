@@ -45,5 +45,4 @@ Before you begin, ensure you have access to the following:
 - **Model Output**:
     - Each finetuned model will be saved in your Google Drive with names from `results1` to `results10` based on the instruction template used.
 
-- **Dependencies**:
-    - Ensure all Python dependencies are installed as per the `requirements.txt` file, if provided in the repository.
+
