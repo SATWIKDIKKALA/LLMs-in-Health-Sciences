@@ -29,7 +29,7 @@ Before you begin, ensure you have access to the following:
     - Run the initial code blocks in the notebook to mount your Google Drive and access the datasets and model files.
 
 3. **Adjust the Instruction Templates**:
-    - The notebook uses 10 instruction templates for finetuning. For each finetuning session, you need to:
+    - The notebook uses 10 instruction templates given in *Instruction_Templates file* for finetuning. For each finetuning session, you need to:
         - Change the `instruction_template` variable in the code to match your current template.
         - Update the `save_model_name` variable to reflect the output model name (e.g., `results1`, `results2`, etc.).
 
