@@ -8,7 +8,6 @@ This project involves finetuning a large language model (LLM) for applications i
 Before you begin, ensure you have access to the following:
 - Google Drive account with shared data and model files.
 - Jupyter Notebook environment/ Google Colab capable of running `.ipynb` files.
-
 ## Setup
 
 1. **Clone the Repository**:
@@ -19,6 +18,7 @@ Before you begin, ensure you have access to the following:
 
 2. **Access the Data**:
     - Ensure that all the necessary data and model files are available in your Google Drive.
+    - Download and unzip the NLP_group_project.zip for the datasets and upload it in Google Drive.
 
 ## Running the Finetuning Model
 
