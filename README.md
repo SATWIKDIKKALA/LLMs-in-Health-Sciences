@@ -13,7 +13,7 @@ Before you begin, ensure you have access to the following:
 
 1. **Clone the Repository**:
     ```bash
-    git clone [<repository-url>](https://github.com/SATWIKDIKKALA/LLMs-in-Health-Sciences.git)
+    git clone https://github.com/SATWIKDIKKALA/LLMs-in-Health-Sciences.git
     cd LLMs-in-Health-Sciences
     ```
 
